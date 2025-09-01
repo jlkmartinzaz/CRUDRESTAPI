@@ -6,9 +6,6 @@ curl -X POST "http://127.0.0.1:5000/items" \
 #Listar
 curl "http://127.0.0.1:5000/items"
 
-#Obtener
-curl "http://127.0.0.1:5000/items/1"
-
 #Actualizar
 curl -X PUT "http://127.0.0.1:5000/items/1" \
      -H "Content-Type: application/json" \
